@@ -18,15 +18,11 @@
    - Relevant: Papers with comprehensive experiments, ablation studies, and clear performance metrics showing RAG improvements
    - Not relevant: Papers with limited experimental validation or unclear performance comparisons
 
-6. arXiv categories
-   - Relevant: Papers categorized under cs.CL, cs.AI, cs.LG with clear focus on RAG technology
-   - Not relevant: Papers from unrelated categories or papers where RAG is not a central component
-
-7. Implementation details
+6. Implementation details
    - Relevant: Papers providing detailed architectural information, code implementations, or practical deployment considerations
    - Not relevant: Papers with vague implementation details or purely theoretical discussions without practical applications
 
-8. Application domains
+7. Application domains
    - Relevant: Papers demonstrating RAG applications in real-world scenarios or novel use cases with clear benefits
    - Not relevant: Papers with generic applications or without clear RAG-specific advantages
 
