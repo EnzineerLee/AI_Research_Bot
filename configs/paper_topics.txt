@@ -1,22 +1,33 @@
- 1. New methodological improvements to RLHF or instruction-following which are specific fine-tuning steps that are taken to make language models better at following user instructions across a range of tasks.
-    - Relevant: papers that discuss specific methods like RLHF, or instruction-tuning datasets, improving these methods, or analyzing them. Usually these papers will explicitly mention RLHF, instruction-following or instruction-tuning.
-    - Not relevant: papers about adaptation to some task. Simply following instructions or inputs are not sufficient.
- 2. Shows new powerful test set contamination or membership inference methods for language models. Test set contamination is the phenomenon where a language model observes a benchmark dataset during pretraining.
-    - Relevant: test statistics that can detect contamination of benchmarks in language models. statistics that can provide guarantees are more interesting. membership inference methods that are general enough to apply to language models are also relevant.
-    - Not relevant: any papers that do not consider language models, or that do not consider test set contamination.
- 3. Shows a significant advance in the performance of diffusion language models.
-    - Relevant: papers that study language models that are also diffusion models. Continuous diffusions are even more relevant, while discrete diffusions are less so.
-    - Not relevant: papers about image diffusions like DALL-E or Stable Diffusion, or papers that do not explicitly mention language models or applications to text.
- 4. Describes new paradigms to evaluating open-ended text generation. Evaluating the outputs of language models is hard, especially in open-ended settings like for chatbots.
-    - Relevant: papers that fundamentally rethink language model evaluation -- especially by accounting for subjectivity or using adversaries.
-    - Not relevant: specific evaluations for specific tasks, identifying new properties or flaws of language models, or simply collecting new data.
- 5. Conducts surveys or provides data into real-world usage and safety properties of language models.
-    - Relevant: papers that create new datasets or surveys on real-world usage of language models.
-    - Not relevant: papers that apply language models to new real-world tasks.
- 6. Studies 'scaling laws' in the context of neural networks. Scaling laws refer to the very clear power-law relationship between the size or computational power used to train a model and the performance of that model.
-    - Relevant: theoretical or conceptual explanation behind scaling laws for language models.
-    - Not relevant: papers that have experiments at different model scales (but do not explicitly fit a scaling law) or papers that mention scaling laws, but the scaling laws are not the central subject of the paper
+1. Papers from top-tier conferences and journals
+   - Relevant: Papers published in NeurIPS, ICLR, ACL, EMNLP, ICML, or high-impact journals with peer review process
+   - Not relevant: Papers from lesser-known conferences, non-peer reviewed publications, or preprints without subsequent publication
 
- In suggesting papers to your friend, remember that he enjoys papers on statistical machine learning, and generative modeling in natural language processing.
- Your friend also likes learning about surprising empirical results in language models, as well as clever statistical tricks.
- He does not want to read papers that are about primarily applications of methods to specific domains.
+2. Publication timeline and impact
+   - Relevant: Papers published within the last 2 years with significant citation counts relative to publication date, showing active community engagement
+   - Not relevant: Older papers, papers with minimal citations, or papers without substantial community impact
+
+3. Institutional credibility
+   - Relevant: Research from well-known academic institutions, established tech companies (Google, Meta, Microsoft, etc.), or recognized research labs
+   - Not relevant: Papers without clear institutional affiliation or from unknown organizations
+
+4. Technical focus and methodology
+   - Relevant: Papers specifically focused on RAG architecture improvements, novel retrieval methods, or significant performance enhancements in RAG systems
+   - Not relevant: Papers that merely mention RAG as a baseline or papers focusing on general language models without specific RAG components
+
+5. Experimental validation and results
+   - Relevant: Papers with comprehensive experiments, ablation studies, and clear performance metrics showing RAG improvements
+   - Not relevant: Papers with limited experimental validation or unclear performance comparisons
+
+6. arXiv categories
+   - Relevant: Papers categorized under cs.CL, cs.AI, cs.LG with clear focus on RAG technology
+   - Not relevant: Papers from unrelated categories or papers where RAG is not a central component
+
+7. Implementation details
+   - Relevant: Papers providing detailed architectural information, code implementations, or practical deployment considerations
+   - Not relevant: Papers with vague implementation details or purely theoretical discussions without practical applications
+
+8. Application domains
+   - Relevant: Papers demonstrating RAG applications in real-world scenarios or novel use cases with clear benefits
+   - Not relevant: Papers with generic applications or without clear RAG-specific advantages
+
+In suggesting papers to your friend, remember that they are primarily interested in practical RAG implementations that overcome traditional limitations and demonstrate significant performance improvements in real-world scenarios, with clear, implementable solutions rather than theoretical discussions.They particularly value papers that provide detailed experimental results, concrete architectural improvements, and specific optimization techniques that can be directly applied to enhance RAG systems.They prefer not to spend time on purely theoretical papers, basic implementations, or papers that simply apply existing RAG methods to new domains without meaningful technical innovations.
