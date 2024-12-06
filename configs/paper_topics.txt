@@ -1,28 +1,20 @@
-1. Papers from top-tier conferences and journals
-   - Relevant: Papers published in NeurIPS, ICLR, ACL, EMNLP, ICML, or high-impact journals with peer review process
-   - Not relevant: Papers from lesser-known conferences, non-peer reviewed publications, or preprints without subsequent publication
-
-2. Publication timeline and impact
-   - Relevant: Papers published within the last 2 years with significant citation counts relative to publication date, showing active community engagement
-   - Not relevant: Older papers, papers with minimal citations, or papers without substantial community impact
-
-3. Institutional credibility
+1. Institutional credibility
    - Relevant: Research from well-known academic institutions, established tech companies (Google, Meta, Microsoft, etc.), or recognized research labs
    - Not relevant: Papers without clear institutional affiliation or from unknown organizations
 
-4. Technical focus and methodology
+2. Technical focus and methodology
    - Relevant: Papers specifically focused on RAG architecture improvements, novel retrieval methods, or significant performance enhancements in RAG systems
    - Not relevant: Papers that merely mention RAG as a baseline or papers focusing on general language models without specific RAG components
 
-5. Experimental validation and results
+3. Experimental validation and results
    - Relevant: Papers with comprehensive experiments, ablation studies, and clear performance metrics showing RAG improvements
    - Not relevant: Papers with limited experimental validation or unclear performance comparisons
 
-6. Implementation details
+4. Implementation details
    - Relevant: Papers providing detailed architectural information, code implementations, or practical deployment considerations
    - Not relevant: Papers with vague implementation details or purely theoretical discussions without practical applications
 
-7. Application domains
+5. Application domains
    - Relevant: Papers demonstrating RAG applications in real-world scenarios or novel use cases with clear benefits
    - Not relevant: Papers with generic applications or without clear RAG-specific advantages
 
